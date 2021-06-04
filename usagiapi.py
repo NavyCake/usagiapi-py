@@ -1,36 +1,25 @@
 from rest.restapi import restAPI
 
 def dance():
-    rest = restAPI("/api/dance")
-    return rest["url"]
-
-def feed():
-    rest = restAPI("/api/feed")
-    return rest["url"]
-
+    return restAPI("dance")
+    
+def feed(): 
+    return restAPI("feed")
+    
 def hug():
-    rest = restAPI("/api/hug")
-    return rest["url"]
+    return restAPI("hug")
 
 def kiss():
-    rest = restAPI("/api/kiss")
-    return rest["url"]
+    return restAPI("kiss")
 
 def pat():
-    rest = restAPI("/api/pat")
-    return rest["url"]
-
+    return restAPI("pat")
+    
 def poke():
-    rest = restAPI("/api/poke")
-    return rest["url"]
-
-
+    return restAPI("poke")
+    
 def slap():
-    rest = restAPI("/api/slap")
-    return rest["url"]
-
-
+    return restAPI("slap")
+    
 def tickle():
-    rest = restAPI("/api/tickle")
-    return rest["url"]
-
+    return restAPI("tickle")
