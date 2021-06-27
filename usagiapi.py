@@ -23,3 +23,12 @@ def slap():
     
 def tickle():
     return restAPI("tickle")
+    
+def bite():
+    return restAPI("bite")
+    
+def bowdown():
+    return restAPI("bowdown")
+    
+def wasted():
+    return restAPI("wasted")
